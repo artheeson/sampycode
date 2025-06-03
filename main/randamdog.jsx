@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 
-export default function sample2(){
+export default function randomdog(){
     const [imgUrl, setImgUrl] = useState(null);
 
     async function fetchDogPhoto() {
